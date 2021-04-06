@@ -1,0 +1,21 @@
+{
+    "model": {
+        "model_name": "mobilenet-v2",
+        "model": "./public/mobilenet-v2/FP32/mobilenet-v2.xml",
+        "weights": "./public/mobilenet-v2/FP32/mobilenet-v2.bin"
+    },
+    "engine": {
+        "config": "./mobilenet_v2.yaml"
+    },
+    "compression": {
+        "algorithms": [
+            {
+                "name": "DefaultQuantization",
+                "params": {
+                    "preset": "performance",
+                    "stat_subset_size": 300
+                }
+            }
+        ]
+    }
+}
