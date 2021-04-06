@@ -13,4 +13,4 @@ mobilenet_v2_int8.json 為OpenVINO POT執行組態定義檔，可將FP32/FP16量
 
 例：pot -c mobilenet_v2_int8.json -e
 
-更完整文章請參見：http://omnixri.blogspot.com/
+更完整文章請參見：http://omnixri.blogspot.com/ （待更新）
