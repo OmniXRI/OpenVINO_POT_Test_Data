@@ -12,3 +12,5 @@ mobilenet_v2.yaml 為OpenVINO POT準確度檢查器(Accuracy_Checker)組態定�
 mobilenet_v2_int8.json 為OpenVINO POT執行組態定義檔，可將FP32/FP16量化為INT8格式。
 
 例：pot -c mobilenet_v2_int8.json -e
+
+更完整文章請參見：http://omnixri.blogspot.com/
